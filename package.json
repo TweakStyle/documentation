@@ -1,0 +1,25 @@
+{
+  "name": "TweakStyleDocs",
+  "version": "0.8.0",
+  "description": "TweakStyle Docs",
+  "homepage": "https://tweakstyle.com",
+  "license": "UNLICENSED",
+  "authors": {
+    "name": "Félicien François",
+    "email": "felicien@tweakstyle.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TweakStyle/documentation.git"
+  },
+  "scripts": {
+    "install": "node lib/build.js"
+  },
+  "dependencies": {
+    "highlight.js": "^8.8.0",
+    "markdown-it": "^4.4.0",
+    "markdown-it-footnote": "^1.0.0",
+    "markdown-it-toc-and-anchor": "^1.0.1",
+    "readdirp": "^2.0.0"
+  }
+}
