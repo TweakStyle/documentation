@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TweakStyle/documentation.git"
+    "url": "https://github.com/TweakStyle/documentation"
   },
   "scripts": {
     "install": "node lib/build.js"
