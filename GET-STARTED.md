@@ -1,5 +1,3 @@
-# Get started
-
 ## 1. Create a project
 
 ### From scratch
@@ -7,7 +5,7 @@
     - Click on the "Add project" button in the workspace tab (left pane)
     - You can leave all options to default or change the project location
     - Then click on "Ok", this will creates an empty project directory, at the bottom of the workspace tab.
-  - Creates directory structure(^2)
+  - Creates directory structure [^2]
     - Right click on the project to get a context menu and click on "New directory"
     - Name the directory and apply
     - Do the same for each directory you want to creates
@@ -16,7 +14,7 @@
     - Right click on the project or a directory and click on "New file"
     - Name your file
     - Then open it to edit it (Either double click, or drag it to a tab or right click > pin in code tab)
-  - Copy files from another project(^3)
+  - Copy files from another project [^3]
     - Right click on the project or a directory and click on "Open in explorer/finder"
     - Makes your file operations and come back to TweakStyle
     - TweakStyle workspace should updates automatically. If not, you can force it using right click > "Refresh"
@@ -107,7 +105,7 @@ However, for now only CSS files can be overrided and it is not yet possible to p
     - Click on OK to save/dump the file
     - _Tip: You can several requests in bulk by changing the "From" path with wildcards. Click on the parts of the path you want to change into a wildcard._
   - Publish changes to the website
-    - For now, TweakStyle does not have any publishing feature, so you'll have to use a thrid party software(^4)
+    - For now, TweakStyle does not have any publishing feature, so you'll have to use a thrid party software[^4]
     
 If you want to set this as the default for a project, you can set the project host:
   - In the workspace tab, right click on the project and choose "Project settings"

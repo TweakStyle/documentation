@@ -1,19 +1,78 @@
-html, body, div, p, h1, h2, h3, h4 {
-	font-family: Roboto;
-	font-size: 14px;
-	color: #333333;
+html {
+	font-family: 'Roboto', sans-serif;
+	text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+html, * {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	width: 100%;
 }
 
 body {
-	margin: 0 auto;
-	padding: 0 20px;
-	width: 650px;
+	padding: 100px 20px 20px;
+	font-size: 14px;
+	background: #F9F9F9;
+	color: #444444;
+}
+
+header {
+    position: fixed;
+	background: #ffffff;
+    padding: 10px 0 10px calc(50% - 150px);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header img {
+	height: 50px;
+	vertical-align: -10%;
+}
+
+a {
+	border-bottom: 1px dashed;
+	text-decoration: none;
+}
+
+a[href] {
+	color: #2699bf;
+	border: none;
+}
+
+a[href]:hover {
+	color: #33CCFF;
+	text-decoration: underline;
+}
+
+ul {
+	margin: 0.5em 0;
+	padding-left: 2em;
+}
+
+ul li {
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 h1 {
-	font-size: 28px;
-	color: #339BC3;
-	margin: 1.5em 0 0.5em;
+	font-size: 50px;
+	color: #28c3f4;
+	line-height: 1.2em;
+	margin: 0;
+    font-weight: bold;
+    text-shadow: 0.01em 0.01em 0.02em rgba(0, 0, 0, 0.4);
 }
 
 h2 {
@@ -34,7 +93,76 @@ h4 {
 	margin: 0.6em 0 0.3em;
 }
 
-ul {
-	margin: 0.5em 0;
-	padding-left: 2em;
+.markdownIt-TOC,
+.markdownIt-TOC ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.markdownIt-TOC a {
+	display: block;
+    padding: 0.3em 1em 0 1em;
+}
+
+.markdownIt-TOC ul a {
+    padding: 0.2em 1em 0 2em; 
+}
+
+.markdownIt-TOC ul ul a {
+    padding: 0.1em 1em 0 3em; 
+}
+
+.markdownIt-TOC a:hover {
+	text-decoration: none;
+}
+
+main {
+	width: 1000px;
+	padding-left: 350px;
+	margin: 0 auto;
+}
+
+.markdownIt-TOC {
+    position: fixed;
+    width: 300px;
+    overflow: hidden;
+    left: 0;
+    left: calc(50% - 500px);
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+	body {
+		padding: 80px 15px 15px;
+	}
+	.markdownIt-TOC {
+		display: none;
+	}
+	main {
+		width: 100%;
+		padding-left: 0;
+	}
+	header {
+	    padding: 10px 0;
+	}
+	header h1 {
+	    font-size: 35px;
+	    text-align: center;
+	}
+	header img {
+	    vertical-align: -25%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		padding: 60px 10px 10px;
+	}
+	header h1 {
+	    font-size: 24px;
+	}
+	header img {
+	    height: 35px;
+	}
 }

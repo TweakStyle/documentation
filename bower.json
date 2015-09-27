@@ -1,0 +1,9 @@
+{
+  "name": "TweakStyle Docs",
+  "version": "0.8.0",
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "roboto-slab-fontface": "*",
+    "roboto-fontface": "~0.4.3"
+  }
+}
