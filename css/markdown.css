@@ -1,0 +1,40 @@
+html, body, div, p, h1, h2, h3, h4 {
+	font-family: Roboto;
+	font-size: 14px;
+	color: #333333;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 650px;
+}
+
+h1 {
+	font-size: 28px;
+	color: #339BC3;
+	margin: 1.5em 0 0.5em;
+}
+
+h2 {
+	font-size: 20px;
+	color: #666666;
+	margin: 0.6em 0 0.3em;
+}
+
+h3 {
+	font-size: 18px;
+	color: #666666;
+	margin: 0.6em 0 0.3em;
+}
+
+h4 {
+	font-size: 16px;
+	color: #666666;
+	margin: 0.6em 0 0.3em;
+}
+
+ul {
+	margin: 0.5em 0;
+	padding-left: 2em;
+}
