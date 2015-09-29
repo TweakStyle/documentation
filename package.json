@@ -13,14 +13,16 @@
     "url": "https://github.com/TweakStyle/documentation"
   },
   "scripts": {
-	"install": "node node_modules/bower/bin/bower install",
+    "install": "node node_modules/bower/bin/bower install",
     "postinstall": "node lib/build.js"
   },
   "dependencies": {
     "bower": "^1.5.3",
     "highlight.js": "^8.8.0",
     "markdown-it": "^4.4.0",
+    "markdown-it-attrs": "0.0.3",
     "markdown-it-footnote": "^1.0.0",
+    "markdown-it-imsize": "^2.0.1",
     "markdown-it-toc-and-anchor": "^1.0.1",
     "readdirp": "^2.0.0"
   }

@@ -10,6 +10,8 @@ html, * {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', serif;
+	transition: background 250ms ease-in-out;
+	background: transparent;
 }
 
 html, body {
@@ -20,7 +22,7 @@ html, body {
 }
 
 body {
-	padding: 100px 20px 20px;
+	padding: 80px 20px 20px;
 	font-size: 14px;
 	background: #F9F9F9;
 	color: #444444;
@@ -76,21 +78,18 @@ h1 {
 }
 
 h2 {
-	font-size: 20px;
-	color: #666666;
-	margin: 0.6em 0 0.3em;
+	font-size: 24px;
+	margin: 2em 0 0.3em;
 }
 
 h3 {
-	font-size: 18px;
-	color: #666666;
-	margin: 0.6em 0 0.3em;
+	font-size: 16px;
+	margin: 2em 0 0.3em;
 }
 
 h4 {
-	font-size: 16px;
-	color: #666666;
-	margin: 0.6em 0 0.3em;
+	font-size: 14px;
+	margin: 2em 0 0.3em;
 }
 
 .markdownIt-TOC,
@@ -132,9 +131,31 @@ main {
     font-size: 14px;
 }
 
+a.markdownIt-Anchor {
+    color: #888888;
+}
+
+.highlight {
+	background: rgba(255, 153, 34, 0.5);
+}
+
+
+/** fix highlightjs **/
+.hljs {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.1em 0.5em;
+}
+pre .hljs {
+	display: block;
+	padding: 0.5em;
+}
+
+
+/** changes on small screens **/
 @media screen and (max-width: 1000px) {
 	body {
-		padding: 80px 15px 15px;
+		padding: 60px 15px 15px;
 	}
 	.markdownIt-TOC {
 		display: none;
@@ -157,7 +178,7 @@ main {
 
 @media screen and (max-width: 500px) {
 	body {
-		padding: 60px 10px 10px;
+		padding: 40px 10px 10px;
 	}
 	header h1 {
 	    font-size: 24px;
