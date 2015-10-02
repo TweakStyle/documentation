@@ -1,6 +1,6 @@
 ## Introduction
 
-Welcome to the TweakStyle documentation. This is a _work in progress_ and will be continuously updated. Pull requests are welcome so if you would like to contribute, please [fork me on GitHub](https://github.com/TweakStyle/documentation).
+Welcome to the [TweakStyle](https://tweakstyle.com) documentation. This is a __work in progress__ and will be continuously updated. Pull requests are welcome so if you would like to contribute, please [fork me on GitHub](https://github.com/TweakStyle/documentation). {notice}
 
 ### What is TweakStyle
 

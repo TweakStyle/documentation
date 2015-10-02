@@ -51,7 +51,7 @@
     - You can open each files and edit them. Just click on it and edit.
   - Save / Dump files in the project
     - You can save the changes and/or dump requests to your project
-    - Click on the "Save" or "Add to workspace" button (or use Control/Command + S)
+    - Click on the "Save" or "Add to workspace" button (or use <kbd>⌘</kbd>+<kbd>S</kbd> / <kbd>Ctrl</kbd>+<kbd>S</kbd>)
     - This will open the "Add to workspace" tool
     - Click on the first arrow of the "To" field and select the project you want to save the file(s) in.
     - Then click on the next arrow(s) to select the directory path inside the project
