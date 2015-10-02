@@ -1,0 +1,54 @@
+body {
+	padding: 80px 20px 20px;
+}
+
+header {
+    position: fixed;
+	background: #ffffff;
+    padding: 10px 0 10px calc(50% - 150px);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header img {
+	height: 50px;
+	vertical-align: -10%;
+}
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+	color: #999999;
+	font-size: 12px;
+}
+
+/** changes on small screens **/
+@media screen and (max-width: 1000px) {
+	body {
+		padding: 60px 15px 15px;
+	}
+	header {
+	    padding: 10px 0;
+	}
+	header h1 {
+	    font-size: 35px;
+	    text-align: center;
+	}
+	header img {
+	    vertical-align: -25%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		padding: 40px 10px 10px;
+	}
+	header h1 {
+	    font-size: 24px;
+	}
+	header img {
+	    height: 35px;
+	}
+}

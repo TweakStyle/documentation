@@ -22,25 +22,10 @@ html, body {
 }
 
 body {
-	padding: 80px 20px 20px;
+	padding: 20px;
 	font-size: 14px;
 	background: #F9F9F9;
 	color: #444444;
-}
-
-header {
-    position: fixed;
-	background: #ffffff;
-    padding: 10px 0 10px calc(50% - 150px);
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-header img {
-	height: 50px;
-	vertical-align: -10%;
 }
 
 a {
@@ -159,9 +144,8 @@ a.markdownIt-Anchor {
 }
 
 .notice {
-	color: #888888;
+	color: #999999;
 }
-
 
 /** fix highlightjs **/
 .hljs {
@@ -174,7 +158,6 @@ pre .hljs {
 	padding: 0.5em;
 }
 
-
 /** changes on small screens **/
 @media screen and (max-width: 1000px) {
 	body {
@@ -182,31 +165,5 @@ pre .hljs {
 	}
 	.markdownIt-TOC {
 		display: none;
-	}
-	main {
-		width: 100%;
-		padding-left: 0;
-	}
-	header {
-	    padding: 10px 0;
-	}
-	header h1 {
-	    font-size: 35px;
-	    text-align: center;
-	}
-	header img {
-	    vertical-align: -25%;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	body {
-		padding: 40px 10px 10px;
-	}
-	header h1 {
-	    font-size: 24px;
-	}
-	header img {
-	    height: 35px;
 	}
 }
