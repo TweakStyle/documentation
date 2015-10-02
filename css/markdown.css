@@ -171,4 +171,8 @@ pre .hljs {
 	.markdownIt-TOC {
 		display: none;
 	}
+	main {
+		width: 100%;
+		padding-left: 0;
+	}
 }
