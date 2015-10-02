@@ -24,7 +24,7 @@ function goToElement(hash) {
 			}, 250);
 			setTimeout(function() {
 				$element.removeClass("highlight");
-			}, 500);
+			}, 700);
 		}
 	} else {
 		$('html, body').stop().animate({

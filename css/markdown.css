@@ -108,6 +108,11 @@ h4 {
 	margin-top: 60px;
 }
 
+.footnote-ref a {
+	margin: -0.5em;
+	padding: 0.5em;
+}
+
 main {
 	width: 1000px;
 	padding-left: 350px;
