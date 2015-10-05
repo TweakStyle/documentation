@@ -12,7 +12,7 @@ It packs all you need to code, preview and debug Web interfaces with the perfect
 
 _“It first started with a daily frustration. I was developing the front end of a web app and with the tools I had, the development process was really painful. I was switching all day long between tools that didn't integrate well with each other (code editor, build tools, browser & development tools) and was taking a ridiculously long time to make small adjustments.”_, Félicien François, Creator of TweakStyle
 
-__Our usual workflow was highly splitted, inefficient and unconfortable__.
+__Our usual workflow was heavily splitted, inefficient and unconfortable__.
 __TweakStyle steps up your workflow to the next level__ by letting you preview and test as you code in a breeze.
 
 ### What TweakStyle is Not
