@@ -43,3 +43,22 @@ $(document).ready(function() {
 		}
 	});
 });
+
+var updateMenuTimer;
+$(window).scroll(function() {
+	clearTimeout(updateMenuTimer);
+	updateMenuTimer = setTimeout(updateMenu, 100);
+});
+updateMenu();
+
+function updateMenu() {
+	var scrollTop = $(window).scrollTop();
+	var scrollBottom = scrollTop + $(window).height();
+	$(".markdownIt-TOC .visible").removeClass("visible");
+	$("h2,h3").each(function(index, element) {
+		var $element = $(element);
+		if($element.offset().top - 100 > scrollTop && $element.offset().top + 50 < scrollBottom && $element.attr("id")) {
+			$(".markdownIt-TOC a[href=#"+$element.attr("id")+"]").parents("ul").addClass("visible");
+		}
+	});
+}

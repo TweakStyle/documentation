@@ -87,6 +87,18 @@ h4 {
     padding: 0;
 }
 
+.markdownIt-TOC ul {
+	visibility: hidden;
+	max-height: 0;
+	overflow: hidden;
+	transition: visibility 250ms linear 0s, max-height 250ms ease-in-out;
+}
+
+.markdownIt-TOC ul.visible {
+	visibility: visible;
+	max-height: 200px;
+}
+
 .markdownIt-TOC a {
 	display: block;
     padding: 0.3em 1em 0 1em;
