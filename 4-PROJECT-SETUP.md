@@ -1,4 +1,5 @@
 ## Project setup
+
 ### Use embedded static server
 
 TweakStyle is shipped with an embedded static server. It is the default option when creating a new project, and you don't have anything to do to use it.
@@ -31,11 +32,11 @@ However, for now only CSS files can be overrided and it is not yet possible to p
     - Click on OK to save/dump the file
     - _Tip: You can several requests in bulk by changing the "From" path with wildcards. Click on the parts of the path you want to change into a wildcard._
   - Publish changes to the website
-    - For now, TweakStyle does not have any publishing feature, so you'll have to use a thrid party software[^4]
+    - For now, TweakStyle does not have any publishing feature, so you'll have to use a thrid party software[^ftppublish]
     
 If you want to set this as the default for a project, you can set the project host:
   - In the workspace tab, right click on the project and choose "Project settings"
   - Uncheck "Use Embedded static server" and fill in the base url of the online website corresponding to the project root (Example: `http://mywebsite.com/myproject/`)
   - Click on OK. Opening a file in the preview will now open the corresponding url online and requests will be automatically mapped to your project files. If parts of the requests are not well mapped (in orange instead of blue), you can add a mapping rule using the "[Add to workspace](#from-an-online-website)" tool
     
-[^4]: We're considering the implementation of a simple FTP publish feature.
+[^ftppublish]: We're considering the implementation of a simple FTP publish feature.
