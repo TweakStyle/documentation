@@ -5,7 +5,7 @@ Welcome to the [TweakStyle](https://tweakstyle.com) documentation. This is a __w
 ### What is TweakStyle
 
 TweakStyle is an [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) for Web Development.
-Unlike most IDEs, TweakStyle is tailor-made for Front-End Development and understands Web Design.
+Unlike most IDEs, TweakStyle is tailor-made for Front-end Development and understands Web Design.
 It packs all you need to code, preview and debug Web interfaces with the perfect blend of features.
 
 ### Why TweakStyle
@@ -38,7 +38,8 @@ Hardware requirements:
 ### Development status & Roadmap
 
 TweakStyle is currently in __active development__.
-The currently available release is flagged as __Beta__, which means that it is stable enough to be used daily by everyone but there are work in progress.
+The currently available release is flagged as __Beta__.
+It means it is stable enough to be used daily by everyone but there are still some work in progress.
 Some features are not yet shipped and others need to be improved.
 
 On top of bugs fix and general improvements, the plan for end of 2015 / start of 2016 is:
@@ -60,8 +61,9 @@ On top of bugs fix and general improvements, the plan for end of 2015 / start of
   - File, request and mapping information
   - Rework settings and add more configurability
   - Add more commands
+- Various Fixes and Additions from [Users feedback](https://feedback.userreport.com/4c0a2f4d-0129-4a8c-88f3-cbbf6052f814/)
 
-The timeline and priorities may vary depending on our experiments results, on users feedback and on our available time and resources.
+The timeline and priorities may vary depending on the result of our experiments, on users feedback and on our available time and resources.
 
 ### Trial & Licensing model
 
