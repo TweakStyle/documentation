@@ -15,4 +15,4 @@ The following markdown extension are enabled and can be used:
 - [Attrs](https://github.com/arve0/markdown-it-attrs)
 - [Classy](https://github.com/andrey-p/markdown-it-classy)
 
-To build markdown files into the final HTML, you will need [Node.js](https://nodejs.org/en/) and execute `npm install` in a shell at the root of the project.
+To build markdown files into the final HTML, you will need [Node.js](https://nodejs.org/en/), then execute `npm install` at the root of the project.
