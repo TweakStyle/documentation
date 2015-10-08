@@ -16,3 +16,12 @@ The following markdown extension are enabled and can be used:
 - [Classy](https://github.com/andrey-p/markdown-it-classy)
 
 To build markdown files into the final HTML, you will need [Node.js](https://nodejs.org/en/), then execute `npm install` at the root of the project.
+
+## TODO
+
+Here a not exhaustive list of what remains to do:
+- Add screenshots and videos
+- Add a part about Settings
+- List available commands and hotkeys
+- Add code samples
+- Add working example for CSS preprocessors
