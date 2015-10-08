@@ -6,7 +6,7 @@ Welcome to the [TweakStyle](https://tweakstyle.com) documentation. This is a __w
 
 TweakStyle is an [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment) for Web Development.
 Unlike most IDEs, TweakStyle is tailor-made for Front-end Development and understands Web Design.
-It packs all you need to code, preview and debug Web interfaces with the perfect blend of features.
+It tends to packs all you need to code, preview and debug Web interfaces with the perfect blend of features.
 
 ### Why TweakStyle
 
@@ -58,9 +58,9 @@ On top of bugs fix and general improvements, the plan for end of 2015 / start of
   - New split mode (with ability to move pane over another)
   - Undock workspace tab
 - More Information & Control
-  - File, request and mapping information
+  - File, request and mapping information bubbles
   - Rework settings and add more configurability
-  - Add more commands
+  - Add commands on code editors
 - Various Fixes and Additions from [Users feedback](https://feedback.userreport.com/4c0a2f4d-0129-4a8c-88f3-cbbf6052f814/)
 
 The timeline and priorities may vary depending on the result of our experiments, on users feedback and on our available time and resources.
