@@ -1,3 +1,17 @@
+/******** Onload with timeout ********/
+
+var loadedTimer = setTimeout(loaded, 2000);
+$(window).load(loaded);
+
+function loaded() {
+	if (loadedTimer) {
+		clearTimeout(loadedTimer);
+		loadedTimer = undefined;
+		// fade in body when ready
+		$("body").removeClass("loading");
+	}
+}
+
 /************ smooth scroll ************/
 $('a[href*=#]:not([href=#])').click(function() {
 	goToElement(this.hash);
