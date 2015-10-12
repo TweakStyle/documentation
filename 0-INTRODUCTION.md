@@ -39,10 +39,10 @@ Hardware requirements:
 
 TweakStyle is currently in __active development__.
 The currently available release is flagged as __Beta__.
-It means it is stable enough to be used daily by everyone but there are still some work in progress.
+It means it is stable enough to be used daily by everyone but there are still some works in progress.
 Some features are not yet shipped and others need to be improved.
 
-On top of bugs fix and general improvements, the plan for end of 2015 / start of 2016 is:
+On top of bugs fixing and general improvements, the plan for end of 2015 / start of 2016 is:
 - Advanced CSS Preprocessor support (SASS/LESS/Stylus)
   - Embedded compiler
   - Live update preview while typing SASS/LESS/Stylus

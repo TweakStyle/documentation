@@ -9,7 +9,7 @@ A code tab can have several files pined in it.
 
 Here a few things you can do with files:
 - Click to fold / unfold the code editor in accordion mode
-- <kbd>Ctrl</kbd>+Click to fold / unfold keeping other code editors opened
-- Drag and drop to the left unpin the code editor
+- <kbd>Ctrl</kbd>+Click to fold / unfold keeping other code editors open
+- Drag and drop to the left to unpin the code editor
 - Drag and drop up and down to sort files in the pane
 - Drag to another tab to pin the file in another tab
