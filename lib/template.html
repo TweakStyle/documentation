@@ -8,6 +8,7 @@
 		<link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 		<link href="bower_components/highlightjs/styles/default.css" rel="stylesheet" type="text/css">
 		<link href="css/markdown.css" rel="stylesheet" type="text/css">
+		<link href="css/nav.css" rel="stylesheet" type="text/css">
 		<link href="css/documentation.css" rel="stylesheet" type="text/css">
 		
 		<!-- Prefetch fonts -->
@@ -19,18 +20,39 @@
 		<link href="bower_components/roboto-slab-fontface/fonts/RobotoSlab-Bold.woff" rel="prefetch">
 		<link href="bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0" rel="prefetch">
     </head>
-    <body class="loading">
-		<header>
-			<h1><a href="https://tweakstyle.com"><img title="TweakStyle" src="images/TweakStyle.svg"></a> TweakStyle Docs</h1>
-		</header>
-		<main>
-			<!-- %content% -->
-		</main>
-		<footer>
-			&copy; 2013, 2015 All rights reserved. TweakStyle, SASU
-		</footer>
+    <body class="loading nav-closed">
+		<div class="nav">
+			<h3 class="nav-title">Menu</h3>
+			<a href="#" class="nav-close">
+				<span class="hidden">Close</span>
+			</a>
+			<ul>
+				<li class="nav-home nav-current" role="presentation"><a href="https://tweakstyle.com/"><i class="fa fa-home"></i> Home</a></li>
+				<li class="nav-news" role="presentation"><a href="http://blog.tweakstyle.com/"><i class="fa fa-newspaper-o"></i> News</a></li>
+				<li class="nav-docs" role="presentation"><a href="http://docs.tweakstyle.com/"><i class="fa fa-book"></i> Docs</a></li>
+				<li class="nav-download" role="presentation"><a href="https://tweakstyle.com/download.html"><i class="fa fa-download"></i> Download</a></li>
+				<li class="nav-buy" role="presentation"><a href="https://tweakstyle.com/#buy.html"><i class="fa fa-heart"></i> Buy</a></li>
+				<li class="nav-contact" role="presentation"><a href="https://tweakstyle.com/#contact.html"><i class="fa fa-pencil"></i> Contact</a></li>
+			</ul>
+		</div>
+		<span class="nav-cover"></span>
+		<div class="site-wrapper">
+			<nav>
+				<a class="menu-button" href="#"><i class="fa fa-bars"></i> <span class="word">Menu</span></a>
+			</nav>
+			<header>
+				<h1><a href="https://tweakstyle.com"><img title="TweakStyle" src="images/TweakStyle.svg"></a> <span class="tweakstyle">TweakStyle</span> Docs</h1>
+			</header>
+			<main>
+				<!-- %content% -->
+			</main>
+			<footer>
+				&copy; 2013, 2015 All rights reserved. TweakStyle, SASU
+			</footer>
+		</div>
 		<script type="text/javascript" src="js/analytics.js"></script>
 		<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
 		<script type="text/javascript" src="bower_components/highlightjs/highlight.pack.js"></script>
 		<script type="text/javascript" src="js/markdown.js"></script>
     </body>

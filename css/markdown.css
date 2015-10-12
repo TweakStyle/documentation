@@ -22,9 +22,7 @@ html, body {
 }
 
 body {
-	padding: 20px;
 	font-size: 14px;
-	background: #F9F9F9;
 	color: #444444;
 	opacity: 1;
 	transition: opacity 400ms ease-in-out;
@@ -34,27 +32,27 @@ body.loading {
 	opacity: 0;
 }
 
-a {
+main a {
 	border-bottom: 1px dashed;
 	text-decoration: none;
 }
 
-a[href] {
+main a[href] {
 	color: #2699bf;
 	border: none;
 }
 
-a[href]:hover {
+main a[href]:hover {
 	color: #33CCFF;
 	text-decoration: underline;
 }
 
-ul {
+main  ul {
 	margin: 0.5em 0;
 	padding-left: 2em;
 }
 
-ul li {
+main ul li {
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
@@ -158,7 +156,7 @@ kbd {
     font-size: 14px;
 }
 
-a.markdownIt-Anchor {
+main a.markdownIt-Anchor {
     color: #888888;
 }
 
@@ -183,9 +181,6 @@ pre .hljs {
 
 /** changes on small screens **/
 @media screen and (max-width: 1000px) {
-	body {
-		padding: 60px 15px 15px;
-	}
 	.markdownIt-TOC {
 		display: none;
 	}

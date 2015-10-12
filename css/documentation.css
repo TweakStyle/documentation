@@ -1,20 +1,14 @@
-body {
-	padding: 80px 20px 20px;
-}
-
 header {
-    position: fixed;
 	background: #ffffff;
-    padding: 10px 0 10px calc(50% - 150px);
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
+    padding: 15px 0 15px calc(50% - 150px);
+    min-height: 100px;
+    min-width: 100%;
 }
 
 header img {
-	height: 50px;
-	vertical-align: -10%;
+	height: 60px;
+	position: absolute;
+	left: 30px;
 }
 
 footer {
@@ -24,31 +18,46 @@ footer {
 	font-size: 12px;
 }
 
+.site-wrapper {
+    background: #f0f0f0;
+}
+
 /** changes on small screens **/
 @media screen and (max-width: 1000px) {
-	body {
-		padding: 60px 15px 15px;
-	}
+    main {
+        padding: 0 20px;
+    }
 	header {
-	    padding: 10px 0;
+	    padding: 20px 90px 0;
 	}
 	header h1 {
-	    font-size: 35px;
-	    text-align: center;
+	    font-size: 42px;
 	}
 	header img {
-	    vertical-align: -25%;
+	    height: 50px;
 	}
 }
 
-@media screen and (max-width: 500px) {
-	body {
-		padding: 40px 10px 10px;
+
+
+@media screen and (max-width: 600px) {
+	header {
+	    min-height: 80px;
+	    padding: 25px 80px 0;
 	}
 	header h1 {
-	    font-size: 24px;
+	    font-size: 30px;
 	}
 	header img {
 	    height: 35px;
 	}
+}
+
+@media screen and (max-width: 420px) {
+    .tweakstyle {
+        direction: ltr;
+        text-indent: -9999px;
+        visibility: hidden;
+        display: none;
+    }   
 }
