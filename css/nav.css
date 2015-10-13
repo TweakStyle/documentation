@@ -83,7 +83,7 @@ body.nav-opened .nav {
 
 .nav-close {
     position: absolute;
-    top: 35px;
+    top: 33px;
     right: 25px;
     width: 20px;
     height: 20px;
@@ -286,11 +286,11 @@ a.menu-button .fa {
     }
     
     .nav-title {
-        top: 26px;
+        top: 25px;
     }
 
     .nav-close {
-        top: 30px;
+        top: 27px;
     }
 
     .nav ul {
