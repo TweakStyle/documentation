@@ -83,7 +83,7 @@ body.nav-opened .nav {
 
 .nav-close {
     position: absolute;
-    top: 34px;
+    top: 35px;
     right: 25px;
     width: 20px;
     height: 20px;
@@ -219,6 +219,7 @@ a.menu-button:focus {
 
 a.menu-button .fa {
     font-size: 1em;
+    cursor: pointer;
 }
 
 /* When the navigation is closed */
@@ -285,12 +286,11 @@ a.menu-button .fa {
     }
     
     .nav-title {
-        top: 5px;
+        top: 26px;
     }
 
     .nav-close {
-        position: absolute;
-        top: 25px;
+        top: 30px;
     }
 
     .nav ul {
