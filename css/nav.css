@@ -126,7 +126,7 @@ body.nav-opened .nav {
 }
 
 .nav ul {
-    padding: 90px 9% 5%;
+    padding: 80px 9% 5%;
     list-style: none;
     counter-reset: item;
 }
@@ -149,7 +149,7 @@ body.nav-opened .nav {
     line-height: 1.4em;
     font-size: 20px;
     display: block;
-    padding: 0.6rem 4%;
+    padding: 0.4em 4%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -174,8 +174,10 @@ body.nav-opened .nav {
 }
 
 .nav a .fa {
-    font-size: 1.2em;
-	vertical-align: text-top;
+    font-size: 1.1em;
+    text-align: right;
+    margin-right: 0.2em;
+	vertical-align: baseline;
 	min-width: 28px;
 }
 
