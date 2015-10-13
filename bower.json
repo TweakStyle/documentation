@@ -3,8 +3,6 @@
   "version": "0.8.0",
   "dependencies": {
     "font-awesome": "~4.4.0",
-    "roboto-slab-fontface": "*",
-    "roboto-fontface": "~0.4.3",
     "jquery": "~2.1.4",
     "highlightjs": "~8.8.0"
   }
