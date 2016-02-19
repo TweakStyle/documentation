@@ -3,9 +3,10 @@
 SASS, LESS or Stylus are examples of Preprocessors for the CSS language.
 When using one of those, the source code must be processed (i.e. built) into CSS before it can be used by browsers.
 
-TweakStyle 0.8.0 introduces some support of Preprocessors and custom builds:
+TweakStyle v0.8.0 and v0.9.0 introduces some support of Preprocessors and custom builds:
 - _Source files automatically pined_
 - _Live Update on save_ without having to reload preview
+- _Build on change_ to compile files
 
 This is made possible through _Sourcemap support_ and _Watch for file change_
 

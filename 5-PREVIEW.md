@@ -16,10 +16,10 @@ This means that the preview is updated live and instantly:
 - When local stylesheet files change on the file system
 - When changing a stylesheet in the code pane (while typing)
 
-For now[^overridesupport] TweakStyle does not support Override nor Live Update for other kind of files (HTML, Javascript, Images, ...).
-For those kind of files, you'll need to save changes, push your changes (in case of remote server), and refresh the preview (by using the refresh button or by pressing <kbd>⌘</kbd>+<kbd>R</kbd> / <kbd>F5</kbd>)
+Since v0.9.0, TweakStyle supports Override for all kind of files (HTML, Javascript, Images, ...). But Live Update without reloading is only available for Stylesheets. 
+You'll have to save the changes (<kbd>Ctrl</kbd>+<kbd>S</kbd> / <kbd>⌘</kbd>+<kbd>S</kbd>) and refresh preview in order to see the changes applied.
+If the _Auto Reload_ feature of the preview is toggled on, it will automatically reload on save.
 
-[^overridesupport]: We plan to implements "Override for all files" and "Reload when saving" in the next couple months
 [^browserengine]: TweakStyle browser engine is based on latest Blink (Chrome/Chromium engine)
 
 

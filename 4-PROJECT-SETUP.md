@@ -15,8 +15,7 @@ For those, you'll have to use your own local server.
   - _Tip: your can also do it when creating the project by clicking on the "Advanced settings" button_
 
 ### Work directly on an online website
-_TweakStyle allows you to preview stylesheets changes on an online website, through a feature called "CSS Override".
-However, for now only CSS files can be Overridden and it is not yet possible to preview changes to HTML or Javascript on an online website._
+_TweakStyle allows you to preview changes on an online website, through a feature called "Override"._
 
   - Navigate to the website
     - In the right pane, type the url of the website in the url bar and press Enter

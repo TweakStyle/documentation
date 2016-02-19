@@ -31,7 +31,7 @@ Operating System:
 - Linux (Verified to work on Ubuntu 12.04 and later, Fedora 21 and Debian 8)
 
 Hardware requirements:
-- 1GB of RAM
+- 2GB of RAM
 - 125MB of available hard-disk space
 - 1280x800 display with 16-bit video card
 
@@ -42,30 +42,33 @@ The currently available release is flagged as __Beta__.
 It means it is stable enough to be used daily by everyone but there are still some works in progress.
 Some features are not yet shipped and others need to be improved.
 
-On top of bugs fixing and general improvements, the plan for end of 2015 / start of 2016 is:
-- Advanced CSS Preprocessor support (SASS/LESS/Stylus)
-  - Embedded compiler
-  - Live update preview while typing SASS/LESS/Stylus
-- Better Override Support
-  - Support for HTML, Images and Javascript Override
-  - Better Override Setup UI
-- Embedded Help
-  - Embedded Demo 
-  - Contextual Help bubbles
-  - Sample projects
+On top of bugs fixing and general improvements, the plan for 2016 is:
+- Project focused work
+  - Single project view
+  - Quick switch between projects
+  - Per project settings (stored in a per project metadata file)
+  - Project templates
 - Panes Splitting
   - Support Dual screen setups (undock preview)
   - New split mode (with ability to move pane over another)
   - Undock workspace tab
+- Embedded Help
+  - Embedded Demo
+  - Contextual Help bubbles (Togglable)
+  - Sample projects
+- Advanced CSS Preprocessor support (SASS/LESS/Stylus)
+  - Embedded compiler
+  - Live update preview while typing SASS/LESS/Stylus
 - More Information & Control
   - File, request and mapping information bubbles
   - Rework settings and add more configurability
-  - Add commands on code editors
+  - More commands on code editors
+  - Improved Override and Build tools dialogs
 - Various Fixes and Additions from [Users feedback](https://feedback.userreport.com/4c0a2f4d-0129-4a8c-88f3-cbbf6052f814/)
 
 The timeline and priorities may vary depending on the result of our experiments, on users feedback and on our available time and resources.
 
 ### Trial & Licensing model
 
-TweakStyle may be downloaded and evaluated for free, however a license must be purchased for continued use. There is currently no enforced time limit for the evaluation However, after 15 days you will get occasionally a trial reminder.
+TweakStyle may be downloaded and evaluated for free, however a license must be purchased for continued use. There is currently no enforced time limit for the evaluation However, you will get occasionally a trial reminder.
 TweakStyle license is per user, with a one time fee. With one license you can run it on all your computers and operating systems and you get all future updates free of charge.
