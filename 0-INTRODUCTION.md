@@ -57,8 +57,10 @@ On top of bugs fixing and general improvements, the plan for 2016 is:
   - Contextual Help bubbles (Togglable)
   - Sample projects
 - Advanced CSS Preprocessor support (SASS/LESS/Stylus)
-  - Embedded compiler
-  - Live update preview while typing SASS/LESS/Stylus
+  - Embed compiler binaries
+  - Dedicated build settings dialog
+  - Live update preview while typing for SASS/LESS/Stylus
+  - Autodetect build pathes from sourcemaps
 - More Information & Control
   - File, request and mapping information bubbles
   - Rework settings and add more configurability

@@ -14,5 +14,15 @@ _Build command_: The command line to execute. The following variables can be use
 - `$basename`: The name of the file without its extension (ex: `myfile`)
 - `$extension`: the file extension starting with dot (ex: `.sass`)
 
+For a few known Preprocessors, the "Build command" field is prefilled with a default command line:
+- _less_: `lessc $relpath $reldirpath/$basename.css --source-map`
+- _SASS & SCSS_: `node-sass $relpath $reldirpath/$basename.css --source-map`
+- _Stylus_: `stylus --compress < $relpath > $reldirpath/$basename.css --sourcemap`
+- _TypeScript_: `tsc $relpath $reldirpath/$basename.js --sourceMap`
+- _Coffee_: `coffee -c $relpath $reldirpath/$basename.js --map`
+- _Dart_: `dart2js --out=$reldirpath/$basename.js $relpath`
+
+Note: Compiler binaries are not included with TweakStyle. You'll have to install them separatly.
+
 The command line will be executed each time one of the matching files change or is saved.
 To trigger a build manually you can open the file, focus the editor and press <kbd>Ctrl</kbd>+<kbd>S</kbd> / <kbd>⌘</kbd>+<kbd>S</kbd>.
