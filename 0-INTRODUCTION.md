@@ -60,7 +60,7 @@ On top of bugs fixing and general improvements, the plan for 2016 is:
   - Embed compiler binaries
   - Dedicated build settings dialog
   - Live update preview while typing for SASS/LESS/Stylus
-  - Autodetect build pathes from sourcemaps
+  - Guess build commands from sourcemaps
 - More Information & Control
   - File, request and mapping information bubbles
   - Rework settings and add more configurability
