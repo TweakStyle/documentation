@@ -1,7 +1,7 @@
 TweakStyle Docs
 ===============
 Welcome to the TweakStyle documentation github repository.
-If you are an end user looking for TweakStyle documentation, please visit [docs.tweakstyle.com](http://docs.tweakstyle.com).
+If you are an end user looking for TweakStyle documentation, please visit [docs.tweakstyle.com](https://docs.tweakstyle.com).
 
 ## Contributing
 
