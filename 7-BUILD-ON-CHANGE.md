@@ -1,20 +1,20 @@
 ## Build on change
 
-TweakStyle v0.9.0 introduced a new "Build Settings" button, available on pined local files (blue ones).
-It opens a dialog allowing to setup a build command that will be executed on file change.
+TweakStyle v0.9.0 introduced a new "Build On Change" feature, available on local files (blue ones).
+Click on the wrench icon to open the build settings dialog:
 
-_Path_: The path of the file(s) that should be watched for change.
-_Build command_: The command line to execute. The following variables can be used in the command line:
-- `$workingdir`: The directory from where the command is executed. This is the project root directory (ex: `/path/to/my/project`)
-- `$fullpath`: The full absolute path (ex: `/path/to/my/project/subdir/myfile.sass`)
-- `$relpath`: The full path relative to the working directory (ex: `subdir/myfile.sass`)
-- `$dirpath`: The absolute path of the containing directory (ex: `/path/to/my/project/subdir`)
-- `$reldirpath`: The full absolute path (ex: `subdir`)
-- `$filename`: The name of the file with its extension (ex: `myfile.sass`)
-- `$basename`: The name of the file without its extension (ex: `myfile`)
-- `$extension`: the file extension starting with dot (ex: `.sass`)
+- __Path__: The path of the file(s) that should be watched for change.
+- __Build command__: The command line to execute. TweakStyle provide some variables about the changed file to help you specify the input and output path of you command:
+  - `$workingdir`: The directory from where the command is executed (ex:&nbsp;`/path/to/my/project`)
+  - `$fullpath`: The absolute path (ex:&nbsp;`/path/to/my/project/subdir/myfile.sass`)
+  - `$relpath`: The path relative to the working directory (ex:&nbsp;`subdir/myfile.sass`)
+  - `$dirpath`: The absolute path of the directory (ex:&nbsp;`/path/to/my/project/subdir`)
+  - `$reldirpath`: The relative path of the directory (ex:&nbsp;`subdir`)
+  - `$filename`: The name of the file including extension (ex:&nbsp;`myfile.sass`)
+  - `$basename`: The name of the file without extension (ex:&nbsp;`myfile`)
+  - `$extension`: the file extension (ex:&nbsp;`.sass`)
 
-For a few known Preprocessors, the "Build command" field is prefilled with a default command line:
+For a few known Preprocessors, the __Build command__ is prefilled with a default command line:
 - _less_: `lessc $relpath $reldirpath/$basename.css --source-map`
 - _SASS & SCSS_: `node-sass $relpath $reldirpath/$basename.css --source-map`
 - _Stylus_: `stylus --compress < $relpath > $reldirpath/$basename.css --sourcemap`
