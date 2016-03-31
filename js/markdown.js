@@ -13,7 +13,7 @@ function loaded() {
 }
 
 /************ smooth scroll ************/
-$('a[href*=#]:not([href=#])').click(function() {
+$("a[href^='#']:not([href='#'])").click(function() {
 	goToElement(this.hash);
 });
 
@@ -72,7 +72,7 @@ function updateMenu() {
 	$("h2,h3").each(function(index, element) {
 		var $element = $(element);
 		if($element.offset().top - 100 > scrollTop && $element.offset().top + 50 < scrollBottom && $element.attr("id")) {
-			$(".markdownIt-TOC a[href=#"+$element.attr("id")+"]").parents("ul").addClass("visible");
+			$(".markdownIt-TOC a[href='#"+$element.attr("id")+"']").parents("ul").addClass("visible");
 		}
 	});
 }
