@@ -2,8 +2,8 @@
   "name": "TweakStyle Docs",
   "version": "0.8.0",
   "dependencies": {
-    "font-awesome": "~4.4.0",
-    "jquery": "~2.1.4",
-    "highlightjs": "~8.8.0"
+    "font-awesome": "~4.5.0",
+    "jquery": "~2.2.2",
+    "highlightjs": "~9.2.0"
   }
 }

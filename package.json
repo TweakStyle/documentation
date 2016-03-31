@@ -17,14 +17,14 @@
     "postinstall": "node lib/build.js"
   },
   "dependencies": {
-    "bower": "^1.5.3",
-    "highlight.js": "^8.8.0",
-    "markdown-it": "^4.4.0",
-    "markdown-it-attrs": "0.0.3",
+    "bower": "^1.7.7",
+    "highlight.js": "^9.2.0",
+    "markdown-it": "^6.0.0",
+    "markdown-it-attrs": "0.1.8",
     "markdown-it-classy": "^0.2.0",
-    "markdown-it-footnote": "^1.0.0",
+    "markdown-it-footnote": "^2.0.0",
     "markdown-it-imsize": "^2.0.1",
-    "markdown-it-toc-and-anchor": "^1.0.1",
+    "markdown-it-toc-and-anchor": "^2.1.0",
     "readdirp": "^2.0.0"
   }
 }

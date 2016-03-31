@@ -3,6 +3,8 @@ TweakStyle Docs
 Welcome to the TweakStyle documentation github repository.
 If you are an end user looking for TweakStyle documentation, please visit [docs.tweakstyle.com](https://docs.tweakstyle.com).
 
+[![](https://david-dm.org/TweakStyle/documentation.svg)](https://david-dm.org/TweakStyle/documentation)
+
 ## Contributing
 
 If you would like to contribute, pull requests are welcomed. Thanks!
