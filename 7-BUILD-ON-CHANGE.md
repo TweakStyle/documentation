@@ -17,7 +17,7 @@ Click on the wrench icon to open the build settings dialog:
 For a few known Preprocessors, the Build command is prefilled with a default command line:
 - LESS: `lessc $relpath $reldirpath/$basename.css --source-map`
 - SASS & SCSS: `node-sass $relpath $reldirpath/$basename.css --source-map`
-- Stylus: `stylus --compress < $relpath > $reldirpath/$basename.css --sourcemap`
+- Stylus: `stylus --compress --sourcemap < $relpath > $reldirpath/$basename.css`
 - TypeScript: `tsc $relpath $reldirpath/$basename.js --sourceMap`
 - Coffee: `coffee -c $relpath $reldirpath/$basename.js --map`
 - Dart: `dart2js --out=$reldirpath/$basename.js $relpath`
