@@ -1,5 +1,7 @@
 // piwik
 var _paq = _paq || [];
+_paq.push(["setCookieDomain", "*.tweakstyle.com"]);
+_paq.push(["setDomains", ["*.tweakstyle.com"]]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
