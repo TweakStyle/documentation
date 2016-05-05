@@ -14,5 +14,5 @@ _paq.push(['enableLinkTracking']);
 
 window.onerror = function(errorMsg, url, line) {
 	// send to piwik
-	_paq.push(["trackEvent", url + ":" + line, errorMsg]);
+	_paq.push(["trackEvent", "error", document.location + ":" + url + ":" + line, errorMsg]);
 };
