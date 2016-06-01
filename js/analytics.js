@@ -13,6 +13,10 @@ _paq.push(['enableLinkTracking']);
 })();
 
 window.onerror = function(errorMsg, url, line) {
+	if (url==="https://stats.tweakstyle.com/a.js") {
+		// don't report errors in piwik script
+		return;
+	}
 	// send to piwik
 	_paq.push(["trackEvent", "error", document.location + ":" + url + ":" + line, errorMsg]);
 };
