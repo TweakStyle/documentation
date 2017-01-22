@@ -26,7 +26,7 @@ As a result it requires a minimum knowledge of Web Development to be used.
 ### System requirements
 
 Operating System:
-- Mac OS X 10.8+ 64bit
+- Mac OS X 10.9+ 64bit
 - Windows 7+ (ARM version of Windows is not supported for now)
 - Linux (Verified to work on Ubuntu 12.04 and later, Fedora 21 and Debian 8)
 
@@ -34,41 +34,6 @@ Hardware requirements:
 - 2GB of RAM
 - 125MB of available hard-disk space
 - 1280x800 display with 16-bit video card
-
-### Development status & Roadmap
-
-TweakStyle is currently in __active development__.
-The currently available release is flagged as __Beta__.
-It means it is stable enough to be used daily by everyone but there are still some works in progress.
-Some features are not yet shipped and others need to be improved.
-
-On top of bugs fixing and general improvements, the plan for 2016 is:
-- Project focused work
-  - Single project view
-  - Quick switch between projects
-  - Per project settings (stored in a per project metadata file)
-  - Project templates
-- Panes Splitting
-  - Support Dual screen setups (undock preview)
-  - New split mode (with ability to move pane over another)
-  - Undock workspace tab
-- Embedded Help
-  - Embedded Demo
-  - Contextual Help bubbles (Togglable)
-  - Sample projects
-- Advanced CSS Preprocessor support (SASS/LESS/Stylus)
-  - Embed compiler binaries
-  - Dedicated build settings dialog
-  - Live update preview while typing for SASS/LESS/Stylus
-  - Guess build commands from sourcemaps
-- More Information & Control
-  - File, request and mapping information bubbles
-  - Rework settings and add more configurability
-  - More commands on code editors
-  - Improved Override and Build tools dialogs
-- Various Fixes and Additions from [Users feedback](https://feedback.userreport.com/4c0a2f4d-0129-4a8c-88f3-cbbf6052f814/)
-
-The timeline and priorities may vary depending on the result of our experiments, on users feedback and on our available time and resources.
 
 ### Trial & Licensing model
 
